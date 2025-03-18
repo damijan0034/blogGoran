@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+  "install-server": "npm install",
+    "start-server": "node index.js",
+    "install-client": "npm install",
+    "build-client": "npm run build",
+    "start-client": " npm run start"
   },
   "author": "",
   "license": "ISC",
